@@ -1,0 +1,143 @@
+ /* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f9f9; /* Soft white background */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #333; /* Dark gray text */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Navigation Bar */
+
+nav {
+  background-color: #ffc5c5; /* Pastel pink background */
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #333; /* Dark gray text */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #666; /* Darker gray text on hover */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Hide the dropdown menu by default */
+}
+
+nav button[type="button"] {
+  background-color: #ffc5c5; /* Pastel pink background */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button[type="button"]:hover {
+  background-color: #ffb6c1; /* Lighter pink background on hover */
+}
+
+nav button[type="button"]:focus {
+  outline: none;
+}
+
+nav button[type="button"] + ul {
+  position: absolute;
+  background-color: #f9f9f9; /* Soft white background */
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+}
+
+nav button[type="button"] + ul li {
+  margin-bottom: 10px;
+}
+
+nav button[type="button"] + ul li a {
+  color: #333; /* Dark gray text */
+  text-decoration: none;
+}
+
+nav button[type="button"] + ul li a:hover {
+  color: #666; /* Darker gray text on hover */
+}
+
+/* Contact Section */
+
+section {
+  padding: 2em;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ffc5c5; /* Pastel pink background */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffb6c1; /* Lighter pink background on hover */
+}
+
+button[type="submit"]:focus {
+  outline: none;
+}
